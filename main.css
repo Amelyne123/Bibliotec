@@ -1,0 +1,66 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #e0f7fa; /* Cor de fundo mais suave */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+.container {
+   background: white;
+   padding: 30px; /* Aumentei o padding para mais espaço interno */
+   border-radius: 12px; /* Bordas mais arredondadas */
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+   text-align: center;
+}
+
+h1 {
+   margin-bottom: 25px; /* Mais espaço abaixo do título */
+   color: #00796b; /* Cor do texto do título */
+}
+
+.options {
+   margin-bottom: 25px; /* Mais espaço abaixo das opções */
+}
+
+button {
+   padding: 12px 25px; /* Botões maiores */
+   background-color: #007BFF;
+   color: white;
+   border: none;
+   border-radius: 8px; /* Bordas mais arredondadas */
+   cursor: pointer;
+   margin: 5px;
+   transition: background-color 0.3s ease; /* Transição suave */
+}
+
+button:hover {
+   background-color: #0056b3;
+}
+
+form {
+   margin-bottom: 25px; /* Mais espaço abaixo do formulário */
+}
+
+input {
+   padding: 12px; /* Inputs maiores */
+   margin: 5px;
+   border: 1px solid #ccc;
+   border-radius: 8px; /* Bordas mais arredondadas */
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+   display: block; /* Tornar a lista visível */
+}
+
+li {
+   padding: 12px; /* Itens da lista maiores */
+   background: #f1f8e9; /* Cor de fundo dos itens da lista */
+   margin: 8px 0; /* Mais espaço entre os itens */
+   border-radius: 8px; /* Bordas mais arredondadas */
+}
+
